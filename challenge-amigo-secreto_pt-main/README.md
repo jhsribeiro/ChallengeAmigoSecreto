@@ -4,6 +4,10 @@
 Este projeto é uma aplicação simples e interativa para realizar sorteios de **Amigo Secreto**.  
 Com ele, você pode adicionar nomes de amigos, removê-los e realizar o sorteio de forma prática e divertida!
 
+<p align="center">
+  <img src="assets/demo.gif" alt="Demonstração do Amigo Secreto" width="600">
+</p>
+
 ---
 
 ## 🚀 Funcionalidades
@@ -33,20 +37,6 @@ Com ele, você pode adicionar nomes de amigos, removê-los e realizar o sorteio 
 ├── app.js          # Lógica do sorteio e interação
 └── assets/         # Imagens do projeto
 ```
-
----
-
-## 🎥 Demonstração em GIF
-
-Veja abaixo como a aplicação funciona em tempo real:  
-
-<p align="center">
-  <img src="assets/demo.gif" alt="Demonstração do Amigo Secreto" width="600">
-</p>
-
-> **Dica:** o GIF deve ser colocado na pasta `assets/` e nomeado como `demo.gif`.  
-> Assim, basta substituir o arquivo pelo seu próprio GIF.
-
 ---
 
 ## ⚙️ Como usar
