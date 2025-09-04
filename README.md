@@ -4,9 +4,7 @@
 Este projeto é uma aplicação simples e interativa para realizar sorteios de **Amigo Secreto**.  
 Com ele, você pode adicionar nomes de amigos, removê-los e realizar o sorteio de forma prática e divertida!
 
-<p align="center">
-  <img src="assets/demo.gif" alt="Demonstração do Amigo Secreto" width="600">
-</p>
+![demoo (1)](https://github.com/user-attachments/assets/27e8ca7a-d912-4166-b16c-1ffe4ed80932)
 
 ---
 
@@ -81,5 +79,7 @@ As cores utilizadas foram pensadas para criar um visual agradável e intuitivo:
 
 ## 📜 Licença
 
+Desenvolvido como parte do Challenge Amigo Secreto da Alura em parceria com a Oracle 🚀
+---
 Este projeto é de uso livre.  
 Sinta-se à vontade para usar, modificar e compartilhar!
