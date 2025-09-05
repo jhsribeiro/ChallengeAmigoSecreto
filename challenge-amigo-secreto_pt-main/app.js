@@ -1,7 +1,7 @@
-// Array para armazenar os nomes
+// array para armazenar os nomes
 let amigos = [];
 
-// Função para adicionar um amigo
+// função para adicionar um amigo
 function adicionarAmigo() {
     const input = document.getElementById("amigo");
     const nome = input.value.trim();
@@ -16,7 +16,7 @@ function adicionarAmigo() {
     input.value = ""; // limpa o campo de entrada
 }
 
-// Função para atualizar a lista de amigos
+// função para atualizar a lista de amigos
 function atualizarLista() {
     const lista = document.getElementById("listaAmigos");
     lista.innerHTML = "";
@@ -36,13 +36,13 @@ function atualizarLista() {
     });
 }
 
-// Função para remover um amigo
+// função para remover um amigo
 function removerAmigo(index) {
     amigos.splice(index, 1);
     atualizarLista();
 }
 
-// Função para sortear um amigo
+// função para sortear um amigo
 function sortearAmigo() {
     const resultado = document.getElementById("resultado");
 
@@ -56,28 +56,28 @@ function sortearAmigo() {
 
     resultado.innerHTML = `<li>🎉 O amigo secreto é: <strong>${sorteado}</strong></li>`;
 
-    // Mostrar botão de novo sorteio
+    // mostrar botão de novo sorteio
     document.getElementById("novoSorteioBtn").style.display = "block";
 }
 
 // função do botão de novo sorteio
 function novoSorteio() {
-    // Limpa o array de amigos
+    // limpa o array de amigos
     amigos = [];
 
-    // Limpa a lista exibida na tela
+    // limpa a lista exibida na tela
     atualizarLista();
 
-    // Limpa o resultado do sorteio
+    // limpa o resultado do sorteio
     const resultado = document.getElementById("resultado");
     resultado.innerHTML = "";
 
-    // Esconde o botão de novo sorteio
+    // esconde o botão de novo sorteio
     document.getElementById("novoSorteioBtn").style.display = "none";
 }
 
 
-// Permitir adicionar com tecla Enter
+// permitir adicionar com tecla Enter
 document.getElementById("amigo").addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
         event.preventDefault(); // evita quebra de linha
