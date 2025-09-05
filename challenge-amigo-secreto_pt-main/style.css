@@ -1,8 +1,8 @@
 :root {
-    --color-primary: #A259FF; /* lilás principal */
-    --color-secondary: #F3E8FF; /* fundo lilás claro */
-    --color-tertiary: #D6BBFC; /* lilás intermediário */
-    --color-button: #9333EA; /* roxo botão */
+    --color-primary: #A259FF; 
+    --color-secondary: #F3E8FF; 
+    --color-tertiary: #D6BBFC; 
+    --color-button: #9333EA;
     --color-button-hover: #7E22CE;
     --color-text: #4B0082;
     --color-white: #FFFFFF;
