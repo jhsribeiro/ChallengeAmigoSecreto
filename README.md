@@ -4,9 +4,7 @@
 Este projeto é uma aplicação simples e interativa para realizar sorteios de **Amigo Secreto**.  
 Com ele, você pode adicionar nomes de amigos, removê-los e realizar o sorteio de forma prática e divertida!
 
-<p align="center">
-  <img src="assets/gif.gif" alt="Demonstração do Amigo Secreto" width="600">
-</p>
+![gif_otimizado (1)](https://github.com/user-attachments/assets/e57df577-4319-42d8-a6a6-670ab204f536)
 
 ---
 
