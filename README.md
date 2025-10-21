@@ -41,7 +41,7 @@ Com ele, você pode adicionar nomes de amigos, removê-los e realizar o sorteio 
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/amigo-secreto.git
+   git clone https://github.com/jhsribeiro/amigo-secreto.git
    ```
 
 2. **Abra o projeto:**
